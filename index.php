@@ -10,7 +10,7 @@
 </head>
 <body>
 	<nav class="light-blue lighten-1" role="navigation">
-    	<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+    	<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">UPT</a>
       		<ul class="right hide-on-med-and-down">
         		<li><a href="#">Navbar Link</a></li>
       		</ul>
@@ -21,9 +21,19 @@
       		<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     	</div>
   	</nav>
-	<h1>Sistemas Operativos I</h1>
-	<section id="Opc">
-		<?php include('caja1.php') ?>
-	</section>
+  	<div class="section no-pad-bot" id="index-banner">
+	    <div class="container">
+		      <br><br>
+			<h1 class="header center orange-text">Sistemas Operativos I</h1>
+			<div class="row center">
+			    <div class="row">
+			      <div class="col s12"><span class="flow-text"><?php include('caja1.php') ?></span></div>
+			      <div class="col s6 offset-s6"><span class="flow-text">6-columns (offset-by-6)</span></div>
+			    </div>
+		    </div>
+	    </div>
+    </div>
+    
+          
 </body>
 </html>
