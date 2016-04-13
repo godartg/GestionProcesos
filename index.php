@@ -5,8 +5,8 @@
 	<title>Gestor de Proyectos</title>
 	<!-- CSS  -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
 	<nav class="light-blue lighten-1" role="navigation">
