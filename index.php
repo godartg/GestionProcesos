@@ -25,15 +25,14 @@
 	    <div class="container">
 		      <br><br>
 			<h1 class="header center orange-text">Sistemas Operativos I</h1>
-			<div class="row center">
-			    <div class="row">
-			      <div class="col s12"><span class="flow-text"><?php include('caja1.php') ?></span></div>
-			      <div class="col s6 offset-s6"><span class="flow-text">6-columns (offset-by-6)</span></div>
-			    </div>
-		    </div>
+			<div class="row">
+			    <div class="col s4"><span class="flow-text"><?php include('caja1.php') ?></span></div>
+			    <div class="col s6 offset-s6"><span class="flow-text">6-columns (offset-by-6)</span></div>
+			</div>
+
 	    </div>
     </div>
-    
+
           
 </body>
 </html>
