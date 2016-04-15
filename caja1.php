@@ -1,9 +1,25 @@
 <?php  
 
 echo '	
-	<form action="">
-  		<input type="radio" name="gender" value="male"> Male<br>
-  		<input type="radio" name="gender" value="female"> Female	<br>
-  		<input type="radio" name="gender" value="other"> Other
-	</form>'	
+	 <form action="action.php" method="post">
+    <p>
+      <input name="group1" type="radio" id="test1" />
+      <label for="test1">Red</label>
+    </p>
+    <p>
+      <input name="group1" type="radio" id="test2" />
+      <label for="test2">Yellow</label>
+    </p>
+    <p>
+      <input class="with-gap" name="group1" type="radio" id="test3"  />
+      <label for="test3">Green</label>
+    </p>
+      <p>
+        <input name="group1" type="radio" id="test4" disabled="disabled" />
+        <label for="test4">Brown</label>
+    </p>
+	<div class="btn">
+		<button type="submit"></button>
+	</div>
+  </form>'	
 ?>
