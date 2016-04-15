@@ -1,7 +1,6 @@
 <?php
 
-if (!empty($_POST['group1']))
-{
+
 	switch ($_POST['group1']) {
 		case 'alg1':
 			echo "<h3>FIFO</h3>"
@@ -20,6 +19,5 @@ if (!empty($_POST['group1']))
 			echo "<h3>Futuro Algoritmo</h3>"
 			break;
 	}
-}
+
 ?>
-<h3>Round Robin</h3>
