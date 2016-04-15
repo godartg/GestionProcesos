@@ -1,7 +1,7 @@
 <?php  
 
 echo '	
-	 <form action="action.php" method="post">
+	 <form action="index.php" method="post">
     <p>
       <input name="group1" type="radio" id="alg1" />
       <label for="alg1">Alg. FIFO</label>
@@ -19,8 +19,7 @@ echo '
         <label for="alg4">Alg. Round Robin</label>
     </p>
 	<div class="btn">
-		<span>Seleccionar</span>
-		<input type="submit">
+		<input type="submit" value="Seleccion">
 	</div>
   </form>'	
 ?>
