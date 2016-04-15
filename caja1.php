@@ -15,11 +15,9 @@ echo '
       <label for="alg3">Alg. SJF(No Apropiativo)</label>
     </p>
       <p>
-        <input name="group1" type="radio" id="alg4" disabled="disabled" />
+        <input name="group1" type="radio" id="alg4" />
         <label for="alg4">Alg. Round Robin</label>
     </p>
-	<div class="btn">
 		<input type="submit" value="Seleccion">
-	</div>
   </form>'	
 ?>
