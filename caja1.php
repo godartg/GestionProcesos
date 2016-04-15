@@ -19,7 +19,8 @@ echo '
         <label for="alg4">Alg. Round Robin</label>
     </p>
 	<div class="btn">
-		<button type="submit">Seleccionar</button>
+		<span>Seleccionar</span>
+		<input type="submit">
 	</div>
   </form>'	
 ?>
