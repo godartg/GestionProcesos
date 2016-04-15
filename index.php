@@ -26,7 +26,7 @@
 		      <br><br>
 			<h1 class="header center orange-text">Sistemas Operativos I</h1>
 			<div class="row">
-			    <div class="col s3 grey lighten-5"><span class="flow-text"><p class="z-depth-1"><?php include('caja1.php') ?></p></span></div>
+			    <div class="col s3 grey lighten-5"><p class="z-depth-1"><?php include('caja1.php') ?></p></div>
 			    <div class="col s9 grey lighten-5"><span class="flow-text"><?php include('caja2.php') ?></span></div>
 			</div>
 
