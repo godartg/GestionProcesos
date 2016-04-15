@@ -1,8 +1,8 @@
 <?php
 
-if (!empty($_POST))
+if (!empty($_POST(group1)))
 {
-	switch (group1($_POST)) {
+	switch ($_POST(group1)) {
 		case 'alg1':
 			echo "<h3>FIFO</h3>"
 			break;
