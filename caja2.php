@@ -1,8 +1,6 @@
 <?php
-if (isset($_POST['submit'])) {
-         $selected_radio = $_POST['group1'];
 
-	switch ($selected_radio) {
+	switch ($_POST['group1'];) {
 		case "alg1":
 			echo "<h3>FIFO</h3>";
 			break;
@@ -20,5 +18,4 @@ if (isset($_POST['submit'])) {
 			echo "<h3>Futuro Algoritmo</h3>";
 			break;
 	}
-}
 ?>
