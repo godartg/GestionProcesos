@@ -1,16 +1,16 @@
 <?php
-
+	
 	switch ($_POST['group1'];) {
-		case "alg1":
+		case 'alg1':
 			echo "<h3>FIFO</h3>";
 			break;
-		case "alg2":
+		case 'alg2':
 			echo "<h3>SFJ (Apropiativo)</h3>";
 			break;
-		case "alg3":
+		case 'alg3':
 			echo "<h3>SFJ (No apropiativo)</h3>";
 			break;
-		case "alg4":
+		case 'alg4':
 			echo "<h3>Round Robin</h3>";
 			break;
 		
