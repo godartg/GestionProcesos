@@ -1,7 +1,7 @@
 <?php  
 
 echo '	
-	 <form action="caja2.php" method="post">
+	 <form action="index.php" method="post">
     <p>
       <input name="group1" type="radio" id="alg1" />
       <label for="alg1">Alg. FIFO</label>
