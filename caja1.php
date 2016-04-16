@@ -1,6 +1,6 @@
 <?php  
 
-echo '	
+echo "	
 	 <form action="index.php" method="post">
     <p>
       <input name="group1" type="radio" value="alg1" id="alg1"/>
@@ -19,5 +19,5 @@ echo '
         <label for="alg4">Alg. Round Robin</label>
     </p>
 		<input type="submit" value="Seleccion">
-  </form>'	
+  </form>"	
 ?>
