@@ -1,5 +1,4 @@
 <?php
-
 	switch ($_POST['group1']) {
 		case "alg1":
 			echo "<h3>FIFO</h3>";
