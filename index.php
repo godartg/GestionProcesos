@@ -51,7 +51,7 @@
         <br><br>
         <h1 class="header center orange-text">Sistemas Operativos I</h1>
 			  <div class="row">
-			    <div class="col s3 grey lighten-5">
+			    <div class="col s3 grey lighten-3">
           <p class="z-depth-1">
           <!--FORMULARIO-->
           <form id="formulario1" action="caja2.php" method="post">
@@ -76,7 +76,7 @@
           </p>
           </div>
 
-    			<div class="col s9 grey lighten-5">
+    			<div class="col s9 grey lighten-3">
             <span class="flow-text">
               <span class="respuesta_01"></span>
             </span>
