@@ -6,7 +6,5 @@ private $NombAlg;
 private $TME;
 private $quantum;
 
-
-
 }
  ?>	 
