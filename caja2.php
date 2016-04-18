@@ -32,6 +32,7 @@ switch ($_POST['group1']) {
 		break;
 	case "alg4":
 		echo "<h3>Round Robin</h3>";
+		echo "<input placeholder=\"Cantidad de Procesos\" id=\"last_name\" type=\"text\" class=\"validate\" name=\"quats\">"
 		break;
 	default:
 		echo "<h3>Futuro Algoritmo</h3>";
@@ -43,9 +44,9 @@ switch ($_POST['group1']) {
         <input placeholder="Cantidad de Procesos" id="last_name" type="text" class="validate" name="nPros">
     </div>
     <div class="input-field col s5">
-    	<input type="checkbox" class="filled-in offset-s1" id="filled-in-box" checked="checked" />
+    	<input type="checkbox" class="filled-in offset-s1" id="filled-in-box" checked="checked" name="Tll" />
       <label for="filled-in-box">Tiempo llegada</label>
-      <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+      <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" name="Oll" />
       <label for="filled-in-box">Orden de llegada</label>
     </div>
 	<br><br><br>
