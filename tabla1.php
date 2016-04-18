@@ -1,3 +1,26 @@
+
+<script src="js/jquery.js"></script>
+
+    <script>
+         $(document).ready(function() {
+            // Interceptamos el evento submit
+            $('#formulario3').submit(function() {
+            //Enviamos el formulario usando AJAX
+                $.ajax({
+                    type: 'POST',
+                    url: $(this).attr('action'),
+                    data: $(this).serialize(),
+                    // Mostramos un mensaje con la respuesta de PHP
+                    success: function(data) {
+                        $('.respuesta_03').html(data);
+                    }
+                })        
+                return false;
+            }); 
+
+        })
+    </script>
+<form id="formulario3" action=".php" method="post">
 <?php
 $n=$_POST['cant_pro']; 
 $o=$_POST['Oll'];
@@ -34,3 +57,4 @@ for($i=1; $i<= $n;$i++){
 			T.M.E: (P1+P2)/n
 			T.M.E: R</p>";
  ?>
+ </form>
