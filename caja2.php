@@ -32,7 +32,7 @@ switch ($_POST['group1']) {
 		break;
 	case "alg4":
 		echo "<h3>Round Robin</h3>";
-		echo "<input placeholder=\"Cantidad de Procesos\" id=\"last_name\" type=\"text\" class=\"validate\" name=\"quats\">"
+		echo "<input placeholder=\"Cantidad de Procesos\" id=\"last_name\" type=\"text\" class=\"validate\" name=\"quats\">";
 		break;
 	default:
 		echo "<h3>Futuro Algoritmo</h3>";
