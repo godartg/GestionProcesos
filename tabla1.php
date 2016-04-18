@@ -20,7 +20,7 @@
 
         })
     </script>
-<form id="formulario3" action=".php" method="post">
+<form id="formulario3" action="table2.php" method="post">
 <?php
 $n=$_POST['cant_pro']; 
 $o=$_POST['Oll'];
@@ -32,7 +32,6 @@ echo "<table>
 					<td>Rafaga</td>
 					<td>Tiempo de llegada</td>
 					<td>Orden de llegada</td>
-					<td>......</td>
 				</tr>
 			</thead>";
 for($i=1; $i<= $n;$i++){
@@ -47,14 +46,10 @@ for($i=1; $i<= $n;$i++){
 				<td><div class=\"input-field\">
           <input id=\"Ol$i\" type=\"text\" class=\"validate\">
         </div></td>
-        <td>\"<input class=\"waves-effect waves-light btn\" type=\"submit\" value=\"Eliminar\"></td>
 			</tr>";
 }
-
-	
 	echo	"</table>";
-	echo "<p>T.E: P:1, P:2
-			T.M.E: (P1+P2)/n
-			T.M.E: R</p>";
+
  ?>
+
  </form>
