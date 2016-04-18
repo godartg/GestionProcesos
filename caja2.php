@@ -3,7 +3,7 @@
     <script>
          $(document).ready(function() {
             // Interceptamos el evento submit
-            $('#formulario1').submit(function() {
+            $('#formulario2').submit(function() {
             //Enviamos el formulario usando AJAX
                 $.ajax({
                     type: 'POST',
@@ -11,7 +11,7 @@
                     data: $(this).serialize(),
                     // Mostramos un mensaje con la respuesta de PHP
                     success: function(data) {
-                        $('.respuesta_01').html(data);
+                        $('.respuesta_02').html(data);
                     }
                 })        
                 return false;
@@ -41,11 +41,11 @@ switch ($_POST['group1']) {
 }
 ?>
 <form id="formulario2" action="tabla1.php" method="post">
-   <div class="input-field col s5">
-   		<label for="cant_pro">Cantidad de Procesos</label>
-        <input placeholder="Cantidad de Procesos" id="cant_pro" type="text" class="validate" name="nPros">
-        
-    </div>
+   
+   <div class="row">
+	   		<label for="cant_pro">Cantidad de Procesos</label>
+	        <input placeholder="Cantidad de Procesos" id="cant_pro" type="text" class="validate" name="cant_pro">
+	</div>
     <div class="input-field col s5">
     	<input type="checkbox" class="filled-in offset-s1" id="filled-in-box" checked="checked" name="Tll" />
       <label for="filled-in-box">Tiempo llegada</label>
@@ -53,5 +53,6 @@ switch ($_POST['group1']) {
       <label for="filled-in-box">Orden de llegada</label>
     </div>
 	<br><br><br>
-   <button class="btn waves-effect waves-light" type="submit" name="action">Agregar</button>
+   <button class="btn waves-effect waves-light" type="submit" name="action">Crear</button>
 </form>
+<span class="respuesta_02"></span>
