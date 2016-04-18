@@ -22,6 +22,7 @@
     </script>
 <form id="formulario3" action="table2.php" method="post">
 <?php
+$algoritmo = new Algoritmo($_GET['Noa']);
 $n=$_POST['cant_pro']; 
 $o=$_POST['Oll'];
 $t=$_POST['Tll'];
