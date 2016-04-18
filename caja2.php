@@ -32,7 +32,8 @@ switch ($_POST['group1']) {
 		break;
 	case "alg4":
 		echo "<h3>Round Robin</h3>";
-		echo "<input placeholder=\"Cantidad de Procesos\" id=\"last_name\" type=\"text\" class=\"validate\" name=\"quats\">";
+		echo "<label for=\"quats\">Quantus</label><input placeholder=\"Quantus\" id=\"quats\" type=\"text\" class=\"validate\" name=\"quats\">";
+
 		break;
 	default:
 		echo "<h3>Futuro Algoritmo</h3>";
@@ -41,7 +42,9 @@ switch ($_POST['group1']) {
 ?>
 <form id="formulario2" action="tabla1.php" method="post">
    <div class="input-field col s5">
-        <input placeholder="Cantidad de Procesos" id="last_name" type="text" class="validate" name="nPros">
+   		<label for="cant_pro">Cantidad de Procesos</label>
+        <input placeholder="Cantidad de Procesos" id="cant_pro" type="text" class="validate" name="nPros">
+        
     </div>
     <div class="input-field col s5">
     	<input type="checkbox" class="filled-in offset-s1" id="filled-in-box" checked="checked" name="Tll" />
