@@ -1,12 +1,11 @@
 <?php 
-require 'Proceso.php';
-
-public class Algoritmo{
+class algoritmo{
 
 private $idAlg;
 private $NA;
 private $TME;
 private $quantum;
+
 
 private $_procesos = array();
 
@@ -18,4 +17,4 @@ public function addProceso(Proceso $proceso){
 }
 
 }
- ?>	 
+?>	 

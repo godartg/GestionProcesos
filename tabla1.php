@@ -1,4 +1,5 @@
 
+
 <script src="js/jquery.js"></script>
 
     <script>
@@ -22,6 +23,7 @@
     </script>
 <form id="formulario3" action="table2.php" method="post">
 <?php
+require 'algoritmo.php';
 $algoritmo = new Algoritmo($_GET['Noa']);
 $n=$_POST['cant_pro']; 
 $o=$_POST['Oll'];
@@ -51,6 +53,9 @@ for($i=1; $i<= $n;$i++){
 }
 	echo	"</table>";
 
+
  ?>
 
  </form>
+
+

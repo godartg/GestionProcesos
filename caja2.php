@@ -20,7 +20,7 @@
         })
     </script>
 <?php
-$NA=$_POST['group1']
+$NA=$_POST['group1'];
 switch ($NA) {
 	case "alg1":
 		echo "<h3>FIFO</h3>";
@@ -40,6 +40,7 @@ switch ($NA) {
 		echo "<h3>Futuro Algoritmo</h3>";
 		break;
 }
+header( "Location: tabla1.php? Noa = $NA" );
 
 ?>
 <form id="formulario2" action="tabla1.php" method="post">

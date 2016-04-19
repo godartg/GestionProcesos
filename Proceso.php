@@ -1,20 +1,21 @@
 <?php 
-
-public class Proceso 
+/**
+* 
+*/
+class Proceso 
 {
 	private $idProc;
 	private $Raf;
-	private $Tl;
-	private $Ol;
-	private $Te;
+	private $TLLegada;
+	private $OLlegada;
+	private $TEspera;
 
-	public function __construct($Raf, $Tl, $Ol, $Te)
+	function __construct($Raf, $Tl, $Ol, $Te)
 	{
 		$this->_raf = $Raf;
 		$this->_tl = $Tl;
 		$this->_ol = $Ol;
 		$this->_te = $te;
 	}
-
 }
  ?>
